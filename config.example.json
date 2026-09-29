@@ -1,0 +1,12 @@
+{
+  "app_name": "example-app",
+  "targets": [
+    "https://example.com/",
+    "https://example.com/api/items",
+    "https://example.com/api/items/1"
+  ],
+  "n": 5,
+  "repo_root": ".",
+  "auth_header": null,
+  "report_out": "reports/"
+}
