@@ -73,4 +73,4 @@ Requirements: bash, curl, python3, and (optionally) a schedule runner.
 
 ## License
 
-MIT. Use it, ship it, sell the result.
+MIT. Free forever. Want it installed and tuned on your stack? dreythomas.com/quicksilver
