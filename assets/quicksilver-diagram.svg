@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 420" font-family="Public Sans, -apple-system, sans-serif">
+  <rect width="880" height="420" fill="#0b0f1a"/>
+  <text x="40" y="50" fill="#f5f1e8" font-size="24" font-weight="800">The QuickSilver loop, every run</text>
+
+  <!-- row: your app -> measure -->
+  <rect x="40"  y="100" width="200" height="90" rx="10" fill="#111827" stroke="#1e2740"/>
+  <text x="140" y="138" fill="#c7d0e0" font-size="18" font-weight="700" text-anchor="middle">your app</text>
+  <text x="140" y="162" fill="#66748f" font-size="13" text-anchor="middle">endpoints, pages, cron</text>
+
+  <rect x="330" y="100" width="200" height="90" rx="10" fill="#111827" stroke="#1e2740"/>
+  <text x="430" y="132" fill="#6ea8fe" font-size="18" font-weight="700" text-anchor="middle">QuickSilver</text>
+  <text x="430" y="154" fill="#66748f" font-size="13" text-anchor="middle">curl timing, p50/p95</text>
+  <text x="430" y="172" fill="#66748f" font-size="13" text-anchor="middle">before.json</text>
+
+  <rect x="620" y="100" width="220" height="90" rx="10" fill="#111827" stroke="#1e2740"/>
+  <text x="730" y="132" fill="#6ea8fe" font-size="18" font-weight="700" text-anchor="middle">agent diagnosis</text>
+  <text x="730" y="154" fill="#66748f" font-size="13" text-anchor="middle">query plans, logs, waterfall</text>
+  <text x="730" y="172" fill="#66748f" font-size="13" text-anchor="middle">evidence or it didn't happen</text>
+
+  <g stroke="#2a3a5c" stroke-width="2" fill="none">
+    <line x1="240" y1="145" x2="330" y2="145"/><line x1="530" y1="145" x2="620" y2="145"/>
+  </g>
+
+  <!-- fix row -->
+  <rect x="330" y="260" width="200" height="90" rx="10" fill="#111827" stroke="#1e2740"/>
+  <text x="430" y="292" fill="#6ea8fe" font-size="18" font-weight="700" text-anchor="middle">smallest safe fix</text>
+  <text x="430" y="314" fill="#66748f" font-size="13" text-anchor="middle">diff, not rewrite</text>
+  <text x="430" y="332" fill="#66748f" font-size="13" text-anchor="middle">prod needs your yes</text>
+
+  <rect x="620" y="260" width="220" height="90" rx="10" fill="#111827" stroke="#34d399"/>
+  <text x="730" y="292" fill="#34d399" font-size="18" font-weight="700" text-anchor="middle">after.json</text>
+  <text x="730" y="314" fill="#66748f" font-size="13" text-anchor="middle">same targets re-measured</text>
+  <text x="730" y="332" fill="#66748f" font-size="13" text-anchor="middle">before / after table out</text>
+
+  <path d="M730 190 L730 245 L530 285" stroke="#2a3a5c" stroke-width="2" fill="none"/>
+  <path d="M430 260 L430 190" stroke="#2a3a5c" stroke-width="2" fill="none"/>
+
+  <text x="40" y="400" fill="#3a4a6a" font-size="14" font-family="ui-monospace, monospace">one bottleneck per run · never deploy to prod without a human yes · never claim an unmeasured speedup</text>
+</svg>
