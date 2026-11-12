@@ -1,0 +1,9 @@
+flowchart LR
+ Human[Owner names slow operation] --> Ramsey[RAMsey: capacity and protected work]
+ Ramsey --> Coordinator[Assistant: explicit handoff]
+ Coordinator --> QS[QuickSilver: measure one bottleneck]
+ QS --> Fix[Smallest proposed fix]
+ Fix --> Approval[Production needs explicit approval]
+ Fix --> Proof[Same-workload latency remeasurement]
+ Proof --> Ramsey
+ Ramsey --> Resource[Separate resource comparison]

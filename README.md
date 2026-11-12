@@ -85,3 +85,8 @@ QuickSilver runs as the performance department of [Drey Thomas](https://dreythom
 ## License
 
 MIT. Free forever. Use it, ship it, sell the result.
+
+
+## RAMsey partnership
+
+[Agent RAMsey](https://github.com/Dreydrey9000/agent-ramsey) checks Mac capacity and protects active work. QuickSilver fixes one app bottleneck. A coordinating assistant carries the explicit handoff; neither kit starts an agent polling loop. See the editable [team workflow](docs/diagrams/team.mmd) and [rendered overview](docs/diagrams/team.svg). Resource readings and app latency are separate measurements; never claim RAM savings from speed alone. Existing production-approval and read-only Mac rules remain in force.
